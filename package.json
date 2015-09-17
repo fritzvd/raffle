@@ -1,0 +1,25 @@
+{
+  "name": "raffle",
+  "version": "1.0.0",
+  "description": "raffle for meetup ticket giveaway",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests.js",
+    "start": "beefy index.js 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/fritzvd/raffle"
+  },
+  "keywords": [
+    "raffle"
+  ],
+  "author": "fritzvd",
+  "license": "MIT",
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "browserify": "^11.1.0",
+    "standard": "^5.3.0",
+    "tap": "^1.4.1"
+  }
+}
